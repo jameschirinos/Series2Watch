@@ -45,6 +45,10 @@
 		D456676928FB657C00AB18FE /* EpisodeCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D456676828FB657C00AB18FE /* EpisodeCollectionViewModel.swift */; };
 		D456676B28FB97B400AB18FE /* SeasonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D456676A28FB97B400AB18FE /* SeasonCollectionViewCell.swift */; };
 		D456676D28FB97C000AB18FE /* SeasonCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D456676C28FB97C000AB18FE /* SeasonCollectionViewModel.swift */; };
+		D46950B328FE038F0086348D /* EpisodeImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46950B228FE038F0086348D /* EpisodeImageCollectionViewCell.swift */; };
+		D46950B528FE039C0086348D /* EpisodeImageCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46950B428FE039C0086348D /* EpisodeImageCollectionViewModel.swift */; };
+		D46950B728FE03E00086348D /* EpisodeDescriptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46950B628FE03E00086348D /* EpisodeDescriptionCollectionViewCell.swift */; };
+		D46950B928FE03EE0086348D /* EpisodeDescriptionCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46950B828FE03EE0086348D /* EpisodeDescriptionCollectionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +109,10 @@
 		D456676828FB657C00AB18FE /* EpisodeCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCollectionViewModel.swift; sourceTree = "<group>"; };
 		D456676A28FB97B400AB18FE /* SeasonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonCollectionViewCell.swift; sourceTree = "<group>"; };
 		D456676C28FB97C000AB18FE /* SeasonCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonCollectionViewModel.swift; sourceTree = "<group>"; };
+		D46950B228FE038F0086348D /* EpisodeImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		D46950B428FE039C0086348D /* EpisodeImageCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeImageCollectionViewModel.swift; sourceTree = "<group>"; };
+		D46950B628FE03E00086348D /* EpisodeDescriptionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDescriptionCollectionViewCell.swift; sourceTree = "<group>"; };
+		D46950B828FE03EE0086348D /* EpisodeDescriptionCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDescriptionCollectionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,6 +336,10 @@
 				D456676828FB657C00AB18FE /* EpisodeCollectionViewModel.swift */,
 				D456676A28FB97B400AB18FE /* SeasonCollectionViewCell.swift */,
 				D456676C28FB97C000AB18FE /* SeasonCollectionViewModel.swift */,
+				D46950B228FE038F0086348D /* EpisodeImageCollectionViewCell.swift */,
+				D46950B428FE039C0086348D /* EpisodeImageCollectionViewModel.swift */,
+				D46950B628FE03E00086348D /* EpisodeDescriptionCollectionViewCell.swift */,
+				D46950B828FE03EE0086348D /* EpisodeDescriptionCollectionViewModel.swift */,
 			);
 			path = Item;
 			sourceTree = "<group>";
@@ -493,6 +505,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46950B928FE03EE0086348D /* EpisodeDescriptionCollectionViewModel.swift in Sources */,
 				D42B910F28FDD4D80094DE83 /* EpisodeResponse.swift in Sources */,
 				D456676728FB656400AB18FE /* EpisodeCollectionViewCell.swift in Sources */,
 				D42B90FE28FD06860094DE83 /* SearchResultsViewController.swift in Sources */,
@@ -506,11 +519,14 @@
 				D42B911128FDD4FB0094DE83 /* SearchResponse.swift in Sources */,
 				D456675328FA28BD00AB18FE /* Serie.swift in Sources */,
 				D42B910328FD0EE50094DE83 /* SearchCollectionViewCell.swift in Sources */,
+				D46950B528FE039C0086348D /* EpisodeImageCollectionViewModel.swift in Sources */,
 				D42B90FA28FCD2DE0094DE83 /* SearchCoordinator.swift in Sources */,
+				D46950B728FE03E00086348D /* EpisodeDescriptionCollectionViewCell.swift in Sources */,
 				D402DA6828FC7C9C004922F8 /* SearchSerieViewModel.swift in Sources */,
 				D42B90F828FCCFC00094DE83 /* R.generated.swift in Sources */,
 				D42B910828FDB6480094DE83 /* EpisodeDetailViewController.swift in Sources */,
 				D402DA6628FC7C8E004922F8 /* SearchSerieViewController.swift in Sources */,
+				D46950B328FE038F0086348D /* EpisodeImageCollectionViewCell.swift in Sources */,
 				D42B910D28FDD4AB0094DE83 /* SerieResponse.swift in Sources */,
 				D456675A28FA309E00AB18FE /* SerieCollectionViewModel.swift in Sources */,
 				D456676928FB657C00AB18FE /* EpisodeCollectionViewModel.swift in Sources */,
